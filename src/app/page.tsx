@@ -21,7 +21,7 @@ export default function Home() {
       name,
     },
     {
-      onError:(error)=>{
+      onError:()=>{
         window.alert("Error creating user");
       },
       onSuccess:()=>{
@@ -37,7 +37,7 @@ export default function Home() {
      
     },
     {
-      onError:(error)=>{
+      onError:()=>{
         window.alert("Invalid email or password");
       },
       onSuccess:()=>{
