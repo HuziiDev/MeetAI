@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Alert, AlertTitle } from "@/components/ui/alert";
 import { OctagonAlert } from "lucide-react";
+import {FaGithub, FaGoogle} from 'react-icons/fa'
 import {
   Form,
   FormControl,
@@ -141,7 +142,7 @@ const onSubmit = (data: z.infer<typeof formSchema>) => {
                     type="button"
                     className="w-full cursor-pointer"
                     >
-                        Google icon
+                       <FaGoogle/>
                     </Button>
                     <Button
                     onClick={() =>{
@@ -153,7 +154,7 @@ const onSubmit = (data: z.infer<typeof formSchema>) => {
                     type="button"
                     className="w-full cursor-pointer"
                     >
-                        Github
+                        <FaGithub/>
                     </Button>
                  </div>
 
