@@ -197,7 +197,7 @@ const onSubmit = (data: z.infer<typeof formSchema>) => {
             </form>
           </Form>
 
-          <div className="bg-radial from-green-700 to-green-800 relative hidden md:flex flex-col items-center justify-center gap-y-4">
+          <div className="bg-radial from-sidebar-accent to-sidebar relative hidden md:flex flex-col items-center justify-center gap-y-4">
             <img
               src="/logo.webp"
               alt="image"
